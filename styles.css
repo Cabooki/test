@@ -1,0 +1,23 @@
+article {
+    position: relative;
+}
+
+.addToFavoriteButton {
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    padding: 15px;
+}
+
+.addToFavoriteButton.remove {
+    background-color: green;
+    color: #fff;
+}
+
+.main-link {
+    padding: 20px;
+    background-color: aqua;
+    margin-bottom: 20px;
+    display: inline-block;
+}
